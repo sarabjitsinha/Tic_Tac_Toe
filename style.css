@@ -77,7 +77,20 @@
 .win{
     height: 100vh;
     width: 100vw;
+    background-color: lightslategray;
+    
     top: 0;
     position: absolute;
     /* border: 2pc solid black; */
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+#reset {
+    font-size: 25px;
 }
